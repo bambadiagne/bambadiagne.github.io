@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Disallow:/CV%20Ahmadou%20Bamba%20Diagne.pdf
