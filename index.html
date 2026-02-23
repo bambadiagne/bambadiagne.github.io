@@ -1,615 +1,857 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portofolio &mdash; Ahmadou Bamba Diagne</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Ahmadou Bamba Diagne" />
-	<meta name="keywords"
-		content="python,dev,devops,aws,software,ahmadou-bamba-diagne,github,freelance" />
-	<meta name="author" content="github.com/bambadiagne" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ahmadou Bamba Diagne — Full Stack Developer & DevOps Engineer</title>
 
+	<!-- SEO Meta -->
+	<meta name="description" content="Full Stack Developer & Cloud/DevOps Enthusiast based in Dakar, Senegal. Python, JavaScript, Docker, AWS specialist.">
+	<meta name="keywords" content="python,dev,devops,aws,software,ahmadou-bamba-diagne,github,freelance,fullstack">
+	<meta name="author" content="Ahmadou Bamba Diagne">
+	<meta property="og:title" content="Ahmadou Bamba Diagne — Portfolio">
+	<meta property="og:description" content="Full Stack Developer & Cloud/DevOps Enthusiast">
+	<meta name="twitter:card" content="summary">
 
-	<meta property="og:title" content="Ahmadou Bamba Diagne Portofolio" />
-	<meta property="og:image" content="" />
-	<meta property="og:url" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-	<script>(function (w, d, s, l, i) {
-			w[l] = w[l] || []; w[l].push({
-				'gtm.start':
-					new Date().getTime(), event: 'gtm.js'
-			}); var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-N8DL9H5');</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-N8DL9H5');</script>
+	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7NV3YWV8T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W7NV3YWV8T');</script>
 
-  gtag('config', 'G-W7NV3YWV8T');
-</script>
-	
-	<!-- End Google Tag Manager -->
+	<!-- Favicon -->
 	<link rel="icon" type="image/x-icon" href="my_logo.ico">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<!-- Fonts & Icons -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Theme style  -->
+	<!-- Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
 </head>
 
 <body>
 
-	<div class="fh5co-loader"></div>
+<!-- ============================================================
+     NAVIGATION — Fixed top bar with logo, links & language toggle
+     ============================================================ -->
+<header id="navbar" class="navbar" role="banner">
+	<div class="container nav-container">
+		<!-- Logo -->
+		<a href="#home" class="logo" aria-label="Home">
+			<span class="logo-text">AB</span><span class="logo-accent">D</span>
+		</a>
 
-	<div id="page">
-		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
-			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="display-t js-fullheight">
-							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-								<div class="profile-thumb" style="background: url(images/myprofile.jpg);"></div>
-								<h1><span>Ahmadou Bamba Diagne</span></h1>
-								<h3><span>Full Stack Developer || Cloud & DevOps enthusiast</span></h3>
-								<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://twitter.com/Elkha_D"><i class="icon-twitter2"></i></a>
-									</li>
-									<li><a href="https://www.instagram.com/ahmadou.rassoul/"><i
-												class="icon-instagram2"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/ahmadou-bamba-diagne/"><i
-												class="icon-linkedin2"></i></a></li>
-								</ul>
-								</p>
-							</div>
-						</div>
+		<!-- Hamburger Toggle (mobile) -->
+		<button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+			<span class="hamburger-line"></span>
+			<span class="hamburger-line"></span>
+			<span class="hamburger-line"></span>
+		</button>
+
+		<!-- Nav Links -->
+		<nav class="nav-menu" id="nav-menu" role="navigation">
+			<ul class="nav-list">
+				<li><a href="#home" class="nav-link active" data-en="Home" data-fr="Accueil">Home</a></li>
+				<li><a href="#about" class="nav-link" data-en="About" data-fr="À propos">About</a></li>
+				<li><a href="#resume" class="nav-link" data-en="Resume" data-fr="CV">Resume</a></li>
+				<li><a href="#projects" class="nav-link" data-en="Projects" data-fr="Projets">Projects</a></li>
+				<li><a href="#articles" class="nav-link" data-en="Articles" data-fr="Articles">Articles</a></li>
+				<li><a href="#skills" class="nav-link" data-en="Skills" data-fr="Compétences">Skills</a></li>
+				<li><a href="#contact" class="nav-link" data-en="Contact" data-fr="Contact">Contact</a></li>
+			</ul>
+			<!-- Language Switcher -->
+			<button id="lang-toggle" class="lang-toggle" aria-label="Switch language">
+				<i class="fas fa-globe"></i>
+				<span id="current-lang">EN</span>
+			</button>
+		</nav>
+	</div>
+</header>
+
+
+<!-- ============================================================
+     HERO SECTION — Full-viewport intro with profile & CTA
+     ============================================================ -->
+<section id="home" class="hero">
+	<!-- Decorative background shapes -->
+	<div class="hero-bg">
+		<div class="hero-shape hero-shape--1"></div>
+		<div class="hero-shape hero-shape--2"></div>
+		<div class="hero-shape hero-shape--3"></div>
+	</div>
+
+	<div class="container hero-container">
+		<div class="hero-text">
+			<p class="hero-greeting" data-en="Hello, I'm" data-fr="Bonjour, je suis">Hello, I'm</p>
+			<h1 class="hero-name">Ahmadou Bamba<br>Diagne</h1>
+			<p class="hero-role" data-en="Full Stack Developer &amp; DevOps Engineer" data-fr="Développeur Full Stack &amp; Ingénieur DevOps">Full Stack Developer &amp; DevOps Engineer</p>
+			<p class="hero-location"><i class="fas fa-map-marker-alt"></i> Dakar, Senegal</p>
+			<div class="hero-actions">
+				<a href="#contact" class="btn btn--primary" data-en="Get in Touch" data-fr="Me contacter">Get in Touch</a>
+				<a href="./CV_AHMADOU_BAMBA_DIAGNE.pdf" target="_blank" class="btn btn--outline" data-en="Download CV" data-fr="Télécharger CV">Download CV</a>
+			</div>
+			<div class="hero-socials">
+				<a href="https://github.com/bambadiagne" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/ahmadou-bamba-diagne/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+				<a href="https://twitter.com/Elkha_D" target="_blank" aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+			</div>
+		</div>
+		<div class="hero-image-wrapper">
+			<div class="hero-image">
+				<img src="images/myprofile.jpg" alt="Ahmadou Bamba Diagne" width="380" height="380" loading="eager">
+			</div>
+		</div>
+	</div>
+
+	<!-- Scroll indicator -->
+	<a href="#about" class="scroll-indicator" aria-label="Scroll down">
+		<span class="scroll-indicator__mouse">
+			<span class="scroll-indicator__dot"></span>
+		</span>
+	</a>
+</section>
+
+
+<!-- ============================================================
+     ABOUT SECTION — Bio, quick stats & contact details
+     ============================================================ -->
+<section id="about" class="section">
+	<div class="container">
+		<div class="section-heading" data-reveal>
+			<span class="section-label" data-en="Who I am" data-fr="Qui je suis">Who I am</span>
+			<h2 class="section-title" data-en="About Me" data-fr="À propos de moi">About Me</h2>
+		</div>
+
+		<div class="about-grid" data-reveal>
+			<!-- Left column: description -->
+			<div class="about-bio">
+				<h3 class="about-headline" data-en="Building robust applications &amp; automating the future." data-fr="Construire des applications robustes &amp; automatiser l'avenir.">Building robust applications &amp; automating the future.</h3>
+				<p data-en="I am a passionate Full Stack Developer with over 4 years of experience in software development and DevOps practices. I specialize in building scalable web applications, implementing CI/CD pipelines, and managing cloud infrastructure." data-fr="Je suis un développeur Full Stack passionné avec plus de 4 ans d'expérience en développement logiciel et pratiques DevOps. Je suis spécialisé dans la construction d'applications web évolutives, la mise en œuvre de pipelines CI/CD et la gestion d'infrastructure cloud.">
+					I am a passionate Full Stack Developer with over 4 years of experience in software development and DevOps practices. I specialize in building scalable web applications, implementing CI/CD pipelines, and managing cloud infrastructure.
+				</p>
+				<p data-en="My expertise spans backend development with Python (Django/Flask), Node.js and NestJS, frontend frameworks like Angular and React, cloud services (AWS), containerization (Docker), and database management (SQL/NoSQL)." data-fr="Mon expertise s'étend du développement backend avec Python (Django/Flask), Node.js et NestJS, aux frameworks frontend comme Angular et React, les services cloud (AWS), la conteneurisation (Docker) et la gestion de bases de données (SQL/NoSQL).">
+					My expertise spans backend development with Python (Django/Flask), Node.js and NestJS, frontend frameworks like Angular and React, cloud services (AWS), containerization (Docker), and database management (SQL/NoSQL).
+				</p>
+
+				<!-- Quick stats -->
+				<div class="about-stats">
+					<div class="stat">
+						<span class="stat-number">4+</span>
+						<span class="stat-label" data-en="Years Experience" data-fr="Ans d'expérience">Years Experience</span>
+					</div>
+					<div class="stat">
+						<span class="stat-number">10+</span>
+						<span class="stat-label" data-en="Projects Delivered" data-fr="Projets livrés">Projects Delivered</span>
+					</div>
+					<div class="stat">
+						<span class="stat-number">8</span>
+						<span class="stat-label" data-en="Certifications" data-fr="Certifications">Certifications</span>
 					</div>
 				</div>
 			</div>
-		</header>
 
-		<div id="fh5co-about" class="animate-box">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>About Me</h2>
+			<!-- Right column: info card -->
+			<div class="about-details">
+				<div class="info-card">
+					<div class="info-row">
+						<i class="fas fa-user"></i>
+						<div><strong data-en="Full Name" data-fr="Nom complet">Full Name</strong><span>Ahmadou Bamba Diagne</span></div>
+					</div>
+					<div class="info-row">
+						<i class="fas fa-envelope"></i>
+						<div><strong>Email</strong><span>diagnekhadimx@gmail.com</span></div>
+					</div>
+					<div class="info-row">
+						<i class="fas fa-map-marker-alt"></i>
+						<div><strong data-en="Location" data-fr="Localisation">Location</strong><span>Dakar, Senegal</span></div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<ul class="info">
-							<li><span class="first-block">Full Name:</span><span class="second-block">Ahmadou Bamba
-									Diagne</span></li>
-							</li>
-							<li><span class="first-block">Email:</span><span
-									class="second-block">diagnekhadimx@gmail.com</span></li>
-							<li><span class="first-block">Address:</span><span class="second-block">Hlm Hann
-									Maristes</span></li>
+
+				<!-- Coding profiles -->
+				<div class="profile-links">
+					<a href="https://github.com/bambadiagne" target="_blank" class="profile-chip"><i class="fab fa-github"></i> GitHub</a>
+					<a href="https://www.hackerrank.com/diagnekhadimx" target="_blank" class="profile-chip"><i class="fab fa-hackerrank"></i> HackerRank</a>
+					<a href="https://cryptohack.org/user/Elkhanonymous/" target="_blank" class="profile-chip"><i class="fas fa-lock"></i> CryptoHack</a>
+					<a href="https://www.codewars.com/users/Bamba%20Diagne" target="_blank" class="profile-chip"><i class="fas fa-code"></i> Codewars</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ============================================================
+     RESUME SECTION — Timeline with tabs for experience & education
+     ============================================================ -->
+<section id="resume" class="section section--alt">
+	<div class="container">
+		<div class="section-heading" data-reveal>
+			<span class="section-label" data-en="My Background" data-fr="Mon parcours">My Background</span>
+			<h2 class="section-title" data-en="Resume" data-fr="CV">Resume</h2>
+		</div>
+
+		<!-- Tab buttons -->
+		<div class="tabs" data-reveal>
+			<button class="tab active" data-tab="experience" data-en="Experience" data-fr="Expérience">Experience</button>
+			<button class="tab" data-tab="education" data-en="Education" data-fr="Formation">Education</button>
+		</div>
+
+		<!-- Experience timeline -->
+		<div class="tab-panel active" id="experience" data-reveal>
+			<div class="timeline">
+				<!-- RH Perspectives -->
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3 data-en="Full Stack Developer" data-fr="Développeur Full Stack">Full Stack Developer</h3>
+								<p class="timeline-company">RH Perspectives — Dakar</p>
+							</div>
+							<span class="timeline-date">Jan 2025 — <span data-en="Present" data-fr="Présent">Present</span></span>
+						</div>
+						<ul class="timeline-list">
+							<li data-en="Design and development of HR modules for process digitalization (performance management, global reporting, etc.)" data-fr="Conception et développement de modules RH pour la digitalisation des processus (gestion de la performance, reporting global, etc.)">Design and development of HR modules for process digitalization (performance management, global reporting, etc.)</li>
+							<li data-en="Deployment of portable and reproducible environments with Docker, reducing deployment time by 80%" data-fr="Déploiement d'environnements portables et reproductibles grâce à Docker, réduisant de 80 % le temps de déploiement">Deployment of portable and reproducible environments with Docker, reducing deployment time by 80%</li>
+							<li data-en="Development of lightweight and accessible frontend interfaces for better user experience" data-fr="Développement d'interfaces frontend légères et accessibles pour une meilleure expérience utilisateur">Development of lightweight and accessible frontend interfaces for better user experience</li>
+							<li data-en="Implementation of asynchronous tasks (cron jobs) for alert automation and business logic execution" data-fr="Mise en œuvre de tâches asynchrones (cron jobs) pour l'automatisation des alertes et l'exécution de logiques métiers spécifiques">Implementation of asynchronous tasks (cron jobs) for alert automation and business logic execution</li>
+							<li data-en="Design and integration of interactive dashboards for decision-making" data-fr="Conception et intégration de tableaux de bord interactifs pour faciliter la prise de décision">Design and integration of interactive dashboards for decision-making</li>
+							<li data-en="User training and client presentations" data-fr="Formation des utilisateurs et présentation client">User training and client presentations</li>
+							<li data-en="Mentoring of junior developers (interns)" data-fr="Mentorat des juniors (stagiaires)">Mentoring of junior developers (interns)</li>
+							<li data-en="Implementation of multi-tenant architecture, reducing cloud costs by 50%" data-fr="Mise en place d'architecture multi-tenant réduisant de 50 % les frais cloud">Implementation of multi-tenant architecture, reducing cloud costs by 50%</li>
+						</ul>
+						<div class="timeline-tags">
+							<span>Python</span><span>JavaScript</span><span>Docker</span><span>PostgreSQL</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Freelance -->
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3 data-en="Freelance Full Stack Developer" data-fr="Développeur Full Stack Freelance">Freelance Full Stack Developer</h3>
+								<p class="timeline-company">Tecklabs &amp; Clients — Dakar</p>
+							</div>
+							<span class="timeline-date">Jul 2024 — Nov 2024</span>
+						</div>
+						<ul class="timeline-list">
+							<li data-en="Backend development with Nest.js and Node.js Express, and frontend interfaces" data-fr="Développement backend (Nest.js, Node.js Express) et frontend">Backend development with Nest.js and Node.js Express, and frontend interfaces</li>
+							<li data-en="Application deployment on AWS" data-fr="Déploiement d'applications sur AWS">Application deployment on AWS</li>
+							<li data-en="Backend architecture design and unit testing" data-fr="Conception de l'architecture backend et tests unitaires">Backend architecture design and unit testing</li>
+						</ul>
+						<div class="timeline-tags">
+							<span>Angular</span><span>Nest.js</span><span>Node.js</span><span>Docker</span><span>MongoDB</span><span>PostgreSQL</span><span>AWS</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Hapidata -->
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3>Full Stack Developer</h3>
+								<p class="timeline-company">Hapidata</p>
+							</div>
+							<span class="timeline-date">May 2023 — <span data-en="Present" data-fr="Présent">Present</span></span>
+						</div>
+						<ul class="timeline-list">
+							<li data-en="Writing deployment documentation for various environments (dev, staging, prod)" data-fr="Rédaction de la documentation de déploiement pour les différents environnements (dev, staging, prod)">Writing deployment documentation for various environments (dev, staging, prod)</li>
+							<li data-en="Maintaining existing applications (bug fixes and feature additions)" data-fr="Maintenance des applications existantes (correction de bugs et ajout de fonctionnalités)">Maintaining existing applications (bug fixes and feature additions)</li>
+							<li data-en="Dockerizing applications for containerized deployment" data-fr="Dockerisation des applications pour un déploiement conteneurisé">Dockerizing applications for containerized deployment</li>
+							<li data-en="Data migration and transformation from MongoDB to PostgreSQL (ETL)" data-fr="Migration et transformation de données de MongoDB vers PostgreSQL (ETL)">Data migration and transformation from MongoDB to PostgreSQL (ETL)</li>
+							<li data-en="Gathering client functional requirements" data-fr="Recueil des besoins fonctionnels du client">Gathering client functional requirements</li>
 						</ul>
 					</div>
-					<div class="col-md-8">
-						<h2>Hello There!</h2>
-						
+				</div>
 
-						<p>Make applications🚀. Automate tasks (processes)⚙️. Secure applications🔐</p>
-						<p>As a full-stack developer with 3 years experience, I have worked on a variety of projects using a wide range of technologies. My versatility has enabled me to master the entire development process, from design to production. My expertise also covers DevOps practices, ensuring smooth deployments through the judicious use of continuous integration tools.
-
-							Send me a message if you want to know more about me🤝</p>
-						<p>
-						<ul class="fh5co-social-icons">
-							<li><a  href="https://github.com/bambadiagne"><i aria-label="Github" class="icon-github"></i></a></li>
-							<li><a href="https://www.hackerrank.com/diagnekhadimx"><i aria-label="hackerrank" class="fa-brands fa-hackerrank"></i></a>
-							</li>
-							<li style="margin-right: 10px;width: 40px;height: 40px;"><a href="https://cryptohack.org/user/Elkhanonymous/"><img width="25" class="bg-white text-white" height="25" src="./images/cryptohack.svg" alt="CryptoHack" srcset=""></a>
-						    <li><a href="https://www.codewars.com/users/Bamba%20Diagne"><img   width="20" height="20" src="./images/codewars.png" alt="Codewars" srcset=""></a>
+				<!-- TeckLabs -->
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3>Full Stack Developer (MEAN)</h3>
+								<p class="timeline-company">TeckLabs</p>
+							</div>
+							<span class="timeline-date">Apr 2021 — Apr 2023</span>
+						</div>
+						<ul class="timeline-list">
+							<li data-en="Maintenance &amp; update of backend services using Node.js Express and MongoDB" data-fr="Maintenance et mise à jour des services backend utilisant Node.js Express et MongoDB">Maintenance &amp; update of backend services using Node.js Express and MongoDB</li>
+							<li data-en="Maintenance and update of Sandaga Montreal's website using Angular and Bootstrap" data-fr="Maintenance et mise à jour du site web de Sandaga Montréal avec Angular et Bootstrap">Maintenance and update of <a href="https://www.sandagamontreal.com/" target="_blank">Sandaga Montreal's</a> website using Angular and Bootstrap</li>
+							<li data-en="Configured cron jobs with Node.js to notify users when subscriptions expire" data-fr="Configuration de tâches cron avec Node.js pour notifier les utilisateurs à l'expiration de leur abonnement">Configured cron jobs with Node.js to notify users when subscriptions expire</li>
 						</ul>
-						</p>
 					</div>
 				</div>
-			</div>
-		</div>
 
-		<div id="fh5co-resume" class="fh5co-bg-color">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Resume</h2>
+				<!-- Banxaas -->
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3>Python Consultant &amp; Freelance (Django REST)</h3>
+								<p class="timeline-company">Banxaas</p>
+							</div>
+							<span class="timeline-date">Jul 2022 — Aug 2022</span>
+						</div>
+						<ul class="timeline-list">
+							<li data-en="Mentored junior developers on building real-time socket-based applications" data-fr="Mentorat de développeurs juniors sur la création d'applications en temps réel basées sur des sockets">Mentored junior developers on building real-time socket-based applications</li>
+							<li data-en="Resolved critical bugs and performance issues" data-fr="Résolution de bugs critiques et problèmes de performance">Resolved critical bugs and performance issues</li>
+							<li data-en="Code audit and improvements (clean code principles)" data-fr="Audit de code et améliorations (principes de code propre)">Code audit and improvements (clean code principles)</li>
+						</ul>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0">
-						<ul class="timeline">
-							<li class="timeline-heading text-center animate-box">
-								<div>
-									<h3>Work Experience</h3>
-								</div>
-							</li>
-							<li class="animate-box timeline-inverted">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Full Stack Developer</h3>
-										<span class="company">Hapidata - May 2023 - Current</span>
-									</div>
-									<div class="timeline-body">
-										<p>
-										<p>_ Writing deployment documentation for the various environments (dev, staging, prod).</p>
-										<p>_ Maintaining the existing application (fixing bugs and adding functionality).</p>
-										<p>_ Dockerize some apps.</p>
-										<p>_ Migrate and transform data from MongoDB to PostgreSQL (ETL).</p>
-										<p>_ Gathering the client's functional requirements.</p>
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box timeline-unverted">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Full Stack Developer(MEAN)</h3>
-										<span class="company">TeckLabs - April 2021 - April 2023</span>
-									</div>
-									<div class="timeline-body">
-										<p>
-										<p>_ Maintenance & update of backend services using <b>NodeJs Express</b> and
-											<b>MongoDB</b>
-										</p>
-										<p>_ Maintenance and update of <a
-												href="https://www.sandagamontreal.com/">Sandaga Montreal's</a> website
-											using <b>Angular</b> and <b>Bootstrap</b></p>
-										<p>_ Additional work:Configure <b>cron</b> with NodeJs to notify users when
-											their subscriptions expire </p>
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Python Consultant and FreeLance(Django REST)</h3>
-										<span class="company">Banxaas - July 2022 - August 2022</span>
-									</div>
-									<div class="timeline-body">
-										<p>
-										<p>_ Help juniors developpers to make an real time app based on socket</p>
-										<p>_ Resolve somes bugs</p>
-										<p>_ Audit the code and make some improvements(clean code) </p>
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box timeline-unverted">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">maths and pc teacher, programming tutor</h3>
-										<span class="company">MySelf - 2019 - 2022</span>
-									</div>
-									<div class="timeline-body">
-										<p>
-										<p>_ Help students (middle school and high school) to solve math problems, also
-											give them exercises to do</p>
-										<p>_ Help students (university, training school) to solve algorithms, do real
-											projects and also give them resources</p>
-										</p>
-									</div>
-								</div>
-							</li>
 
-							<br>
-							<li class="timeline-heading text-center animate-box">
-								<div>
-									<h3>Education</h3>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Master's Degree at TDSI</h3>
-										<span class="company">Cheikh Anta Diop University - 2020 - 2023</span>
-									</div>
-									<div class="timeline-body">
-										<p>
-										<p>_ Mathematics </p>
-										<p>_ Cryptography</p>
-										<p>_ Information security</p>
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-unverted animate-box">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Bachelor's Degree at TDSI</h3>
-										<span class="company">Cheikh Anta Diop University- 2017 - 2020</span>
-									</div>
-									<div class="timeline-body">
-										<p>
-										<p>_ General knowledges in computer science</p>
-										<p>_ Mathematics </p>
-										<p>_ Cryptography</p>
-										<p>_ Software Development</p>
-										<p>_ Information security</p>
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box timeline-inverted">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">High School diploma </h3>
-										<span class="company">Halwar School 2017</span>
-									</div>
-									<div class="timeline-body">
-										<p>_ Exact sciences whose dominant subjects are Mathematics and
-											Physics-Chemistry</p>
-									</div>
-								</div>
-							</li>
-
+				<!-- Teaching -->
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3 data-en="Mathematics Teacher &amp; Programming Tutor" data-fr="Professeur de mathématiques et tuteur en programmation">Mathematics Teacher &amp; Programming Tutor</h3>
+								<p class="timeline-company" data-en="Self-Employed" data-fr="Indépendant">Self-Employed</p>
+							</div>
+							<span class="timeline-date">2019 — 2022</span>
+						</div>
+						<ul class="timeline-list">
+							<li data-en="Tutored middle and high school students in mathematics" data-fr="Tutorat d'élèves du collège et du lycée en mathématiques">Tutored middle and high school students in mathematics</li>
+							<li data-en="Mentored university students in algorithms and programming projects" data-fr="Mentorat d'étudiants universitaires en algorithmes et projets de programmation">Mentored university students in algorithms and programming projects</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-		<div id="fh5co-features" class="animate-box">
-			<div class="container">
-				<div class="services-padding">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>My Services</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<i class="icon-code"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Apps</h3>
-									<p>Web apps,Desktop apps,Frontend,Backend...</p>
-								</div>
+		<!-- Education timeline -->
+		<div class="tab-panel" id="education" data-reveal>
+			<div class="timeline">
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3 data-en="Master's Degree in TDSI" data-fr="Master en TDSI">Master's Degree in TDSI</h3>
+								<p class="timeline-company" data-en="Cheikh Anta Diop University" data-fr="Université Cheikh Anta Diop">Cheikh Anta Diop University</p>
 							</div>
+							<span class="timeline-date">2020 — 2023</span>
 						</div>
-
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<i class="icon-classic-computer"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>SysAdmin | DevOps</h3>
-									<p>Monitoring,Server installation,CI/CD pipelines,...</p>
-								</div>
-							</div>
-
-						</div>
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<i class="icon-database"></i>
-								</span>
-								<div class="feature-copy">
-									<h3>Database</h3>
-									<p>Database modeling,MySQL,PostgreSQL,MongoDB,ETL...</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-skills" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Skills</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<h3>SysAdmin</h3>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Git-Github</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-								aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							</div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Linux,Windows</span><span class="value-right">80%</span></h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
-								aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							</div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Docker-Jenkins-Github Actions-Ansible</span><span class="value-right">70%</span>
-						</h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-								aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-							</div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Merise-SQL-NoSQL</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
-								aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							</div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Cloud-AWS</span><span class="value-right">70%</span></h3>
-						<div class="progress">
-							<div class="progress-bar  progress-bar-striped active" role="progressbar"
-								aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%;background-color:#E7EBDA;">
-							</div>
-						</div>
+						<ul class="timeline-list">
+							<li data-en="Mathematics" data-fr="Mathématiques">Mathematics</li>
+							<li data-en="Cryptography" data-fr="Cryptographie">Cryptography</li>
+							<li data-en="Information Security" data-fr="Sécurité de l'information">Information Security</li>
+							<li data-en="Software Development" data-fr="Développement logiciel">Software Development</li>
+						</ul>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<h3>Development</h3>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Flask-Django</span><span class="value-right">90%</span></h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
-								aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3 data-en="Bachelor's Degree in TDSI" data-fr="Licence en TDSI">Bachelor's Degree in TDSI</h3>
+								<p class="timeline-company" data-en="Cheikh Anta Diop University" data-fr="Université Cheikh Anta Diop">Cheikh Anta Diop University</p>
 							</div>
+							<span class="timeline-date">2017 — 2020</span>
 						</div>
+						<ul class="timeline-list">
+							<li data-en="General knowledge in computer science" data-fr="Connaissances générales en informatique">General knowledge in computer science</li>
+							<li data-en="Mathematics" data-fr="Mathématiques">Mathematics</li>
+							<li data-en="Cryptography" data-fr="Cryptographie">Cryptography</li>
+							<li data-en="Software Development" data-fr="Développement logiciel">Software Development</li>
+							<li data-en="Information Security" data-fr="Sécurité de l'information">Information Security</li>
+						</ul>
 					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">C-Python-JavaSE</span><span class="value-right">75%</span></h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
-								aria-valuemin="0" aria-valuemax="100" style="width:75%">
+				</div>
+
+				<div class="timeline-entry">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-header">
+							<div>
+								<h3 data-en="High School Diploma" data-fr="Baccalauréat">High School Diploma</h3>
+								<p class="timeline-company">Halwar School</p>
 							</div>
+							<span class="timeline-date">2017</span>
 						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">HTML-CSS-JS-Bootstrap</span><span class="value-right">85%</span>
-						</h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-								aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							</div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Angular-React-Node</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-								aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							</div>
-						</div>
+						<p class="timeline-desc" data-en="Exact Sciences (S1) with focus on Mathematics and Physics-Chemistry" data-fr="Sciences exactes (S1) avec spécialisation en Mathématiques et Physique-Chimie">Exact Sciences (S1) with focus on Mathematics and Physics-Chemistry</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
 
 
-	<div id="fh5co-blog">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Some certificates</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="images/Apprenez-à-coder-avec-JavaScript.png" class="blog-bg"
-							style="background-image: url(images/Apprenez-à-coder-avec-JavaScript.png);"></a>
-					</div>
-
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="images/Introduction-à-jQuery.png" class="blog-bg"
-							style="background-image: url(images/Introduction-à-jQuery.png);"></a>
-					</div>
-
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="images/Écrivez-du-JavaScript-pour-le-web.png" class="blog-bg"
-							style="background-image: url(images/Écrivez-du-JavaScript-pour-le-web.png);"></a>
-					</div>
-
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="images/Apprenez-à-programmer-en-Python.png" class="blog-bg"
-							style="background-image: url(images/Apprenez-à-programmer-en-Python.png);"></a>
-					</div>
-
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="images/2067997710.png" class="blog-bg" style="background-image: url(images/2067997710.png);"></a>
-					</div>
-
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="images/Optimisez-votre-déploiement-en-créant-des-conteneurs-avec-Docker.png" class="blog-bg"
-							style="background-image: url(images/Optimisez-votre-déploiement-en-créant-des-conteneurs-avec-Docker.png);"></a>
-					</div>
-
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="images/attestation_fun_mooc_python_page-0001.jpg" class="blog-bg"
-							style="background-image: url(images/attestation_fun_mooc_python_page-0001.jpg);"></a>
-					</div>
-
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a target="_blank" href="https://www.credly.com/badges/ce31d188-1fd4-45da-8f11-4e36aa2b8670/public_url" class="blog-bg" style="background-image: url(images/AWS\ Certified\ Cloud\ Practitioner\ certificate_page-0001.jpg);"></a>
-					</div>
-
-				</div>
-				
-			</div>
+<!-- ============================================================
+     PROJECTS SECTION — Filterable card grid
+     ============================================================ -->
+<section id="projects" class="section">
+	<div class="container">
+		<div class="section-heading" data-reveal>
+			<span class="section-label" data-en="What I've built" data-fr="Ce que j'ai réalisé">What I've built</span>
+			<h2 class="section-title" data-en="Projects" data-fr="Projets">Projects</h2>
+			<p class="section-desc" data-en="A selection of recent work and personal projects." data-fr="Une sélection de projets récents et personnels.">A selection of recent work and personal projects.</p>
 		</div>
 
-		<div id="fh5co-started" class="fh5co-bg-dark">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>More details in my resume</h2>
-						<p><a href="./CV_Ahmadou Bamba_Diagne.pdf" target="_blank"
-								class="btn btn-default btn-lg">Download resume</a></p>
-					</div>
+		<div class="projects-grid" data-reveal>
+			<!-- FCL -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-city"></i>
 				</div>
-			</div>
+				<div class="project-body">
+					<h3>FCL</h3>
+					<p data-en="Platform enabling local authorities to easily view and manage their financial data." data-fr="Plateforme permettant aux collectivités de consulter et gérer facilement leurs données financières.">Platform enabling local authorities to easily view and manage their financial data.</p>
+					<div class="tag-list">
+						<span class="tag">Platform</span>
+						<span class="tag">Finance</span>
+					</div>
+					<a href="https://fcl.fr/fcl/gerermacite-notre-plateforme/" target="_blank" class="project-link" data-en="View Project" data-fr="Voir le projet">View Project <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</article>
+
+			<!-- Sandaga Montréal -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-box"></i>
+				</div>
+				<div class="project-body">
+					<h3>Sandaga Montréal</h3>
+					<p data-en="Parcel management (GP) platform for seamless package tracking and logistics." data-fr="Plateforme de gestion de colis (GP) pour le suivi et la logistique des paquets.">Parcel management (GP) platform for seamless package tracking and logistics.</p>
+					<div class="tag-list">
+						<span class="tag">Angular</span>
+						<span class="tag">Node.js</span>
+						<span class="tag">MongoDB</span>
+					</div>
+					<a href="https://sandagamontreal.ca/" target="_blank" class="project-link" data-en="View Project" data-fr="Voir le projet">View Project <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</article>
+
+			<!-- Tic Tac Toe Game -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-gamepad"></i>
+				</div>
+				<div class="project-body">
+					<h3>Tic Tac Toe Game</h3>
+					<p data-en="Real-time multiplayer Tic Tac Toe game built with React and WebSockets." data-fr="Jeu de morpion multijoueur en temps réel avec React et WebSockets.">Real-time multiplayer Tic Tac Toe game built with React and WebSockets.</p>
+					<div class="tag-list">
+						<span class="tag">React</span>
+						<span class="tag">WebSockets</span>
+						<span class="tag">Node.js</span>
+					</div>
+					<a href="https://tic-toc-tae-60d5fc3ae99f.herokuapp.com/" target="_blank" class="project-link" data-en="View Project" data-fr="Voir le projet">View Project <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</article>
+
+			<!-- Ultra API -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-plug"></i>
+				</div>
+				<div class="project-body">
+					<h3>Ultra API</h3>
+					<p data-en="Lightweight REST API built with Flask, backed by PostgreSQL and Redis, containerized with Docker." data-fr="API REST légère construite avec Flask, PostgreSQL et Redis, conteneurisée avec Docker.">Lightweight REST API built with Flask, backed by PostgreSQL and Redis, containerized with Docker.</p>
+					<div class="tag-list">
+						<span class="tag">Flask</span>
+						<span class="tag">PostgreSQL</span>
+						<span class="tag">Redis</span>
+						<span class="tag">Docker</span>
+					</div>
+					<a href="https://github.com/bambadiagne/ultra-api" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+				</div>
+			</article>
+
+			<!-- GitHub Stats -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-chart-bar"></i>
+				</div>
+				<div class="project-body">
+					<h3>GitHub Stats</h3>
+					<p data-en="GitHub statistics dashboard using GraphQL API with scheduled data refresh via cron jobs." data-fr="Tableau de bord de statistiques GitHub utilisant l'API GraphQL avec rafraîchissement planifié via cron.">GitHub statistics dashboard using GraphQL API with scheduled data refresh via cron jobs.</p>
+					<div class="tag-list">
+						<span class="tag">Flask</span>
+						<span class="tag">Angular</span>
+						<span class="tag">GraphQL</span>
+						<span class="tag">Cron</span>
+					</div>
+					<a href="https://github-stats-bambadiagne.vercel.app/" target="_blank" class="project-link" data-en="View Project" data-fr="Voir le projet">View Project <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</article>
+
+			<!-- Blog Starter -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-blog"></i>
+				</div>
+				<div class="project-body">
+					<h3>Blog Starter</h3>
+					<p data-en="Full-stack blog application with Angular frontend, Nest.js backend, Prisma ORM, and AWS S3 storage." data-fr="Application blog full-stack avec Angular, Nest.js, Prisma ORM et stockage AWS S3.">Full-stack blog application with Angular frontend, Nest.js backend, Prisma ORM, and AWS S3 storage.</p>
+					<div class="tag-list">
+						<span class="tag">Angular</span>
+						<span class="tag">Nest.js</span>
+						<span class="tag">Prisma</span>
+						<span class="tag">AWS S3</span>
+					</div>
+					<a href="https://github.com/bambadiagne/simple_blog" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+				</div>
+			</article>
+
+			<!-- React Airbnb Clone -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-home"></i>
+				</div>
+				<div class="project-body">
+					<h3>React Airbnb Clone</h3>
+					<p data-en="Airbnb-inspired clone built with React frontend and Django REST API backend." data-fr="Clone inspiré d'Airbnb avec React en frontend et Django REST API en backend.">Airbnb-inspired clone built with React frontend and Django REST API backend.</p>
+					<div class="tag-list">
+						<span class="tag">React</span>
+						<span class="tag">Django REST</span>
+					</div>
+					<a href="https://github.com/bambadiagne/react-airnb-clone" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+				</div>
+			</article>
+
+			<!-- Critique de livres -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-book"></i>
+				</div>
+				<div class="project-body">
+					<h3 data-en="Book Reviews" data-fr="Critique de livres">Book Reviews</h3>
+					<p data-en="Book review platform built with Flask and PostgreSQL for sharing and discovering book opinions." data-fr="Plateforme de critique de livres construite avec Flask et PostgreSQL.">Book review platform built with Flask and PostgreSQL for sharing and discovering book opinions.</p>
+					<div class="tag-list">
+						<span class="tag">Flask</span>
+						<span class="tag">PostgreSQL</span>
+					</div>
+					<a href="https://github.com/bambadiagne/project1" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+				</div>
+			</article>
+
+			<!-- Cracker mot de passe -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-key"></i>
+				</div>
+				<div class="project-body">
+					<h3 data-en="Password Generator" data-fr="Générateur de mot de passe">Password Generator</h3>
+					<p data-en="Desktop password generator and cracker tool built with PyQt5 and Python." data-fr="Outil de génération et de craquage de mots de passe avec PyQt5 et Python.">Desktop password generator and cracker tool built with PyQt5 and Python.</p>
+					<div class="tag-list">
+						<span class="tag">PyQt5</span>
+						<span class="tag">Python</span>
+					</div>
+					<a href="https://github.com/bambadiagne/Generateur-de-mot-de-passe" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+				</div>
+			</article>
+
+			<!-- Algo Visualizer -->
+			<article class="project-card">
+				<div class="project-icon">
+					<i class="fas fa-project-diagram"></i>
+				</div>
+				<div class="project-body">
+					<h3>Algo Visualizer</h3>
+					<p data-en="Interactive algorithm visualizer for sorting and pathfinding algorithms, built with Angular and D3.js." data-fr="Visualiseur interactif d'algorithmes de tri et de parcours, construit avec Angular et D3.js.">Interactive algorithm visualizer for sorting and pathfinding algorithms, built with Angular and D3.js.</p>
+					<div class="tag-list">
+						<span class="tag">Angular</span>
+						<span class="tag">TypeScript</span>
+						<span class="tag">D3.js</span>
+					</div>
+					<a href="https://algo-visualizer-puce.vercel.app/" target="_blank" class="project-link" data-en="View Project" data-fr="Voir le projet">View Project <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</article>
 		</div>
 
-		<div id="fh5co-consult">
-			<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-				<div class="overlay"></div>
-			</div>
-			<div class="choose animate-box">
-				<h2>Contact</h2>
-				<form>
-					<div class="row form-group">
-						<div class="col-md-12">
-							<input type="text" id="name" name="name" class="form-control" placeholder="Your Full Name">
-						</div>
-					</div>
-
-					<div class="row form-group">
-						<div class="col-md-12">
-							<input type="text" id="email" name="email" class="form-control"
-								placeholder="Your email address">
-						</div>
-					</div>
-					<div class="row form-group">
-						<div class="col-md-12">
-							<textarea name="message" id="message" cols="30" rows="10" class="form-control"
-								placeholder="Say something about us"></textarea>
-						</div>
-					</div>
-					<div class="form-group">
-						<input type="submit" value="Send Message" id='sendMail' class="btn btn-primary">
-					</div>
-
-				</form>
-			</div>
+		<!-- GitHub CTA -->
+		<div class="section-cta" data-reveal>
+			<a href="https://github.com/bambadiagne?tab=repositories" target="_blank" class="btn btn--outline">
+				<i class="fab fa-github"></i> <span data-en="View More on GitHub" data-fr="Voir plus sur GitHub">View More on GitHub</span>
+			</a>
 		</div>
-
-<!-- 		<div class="google-map"><iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0"
-				marginwidth="0"
-				src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=HLM%20Hann%20Maristes%20+(Mes%20Coordonn%C3%A9es)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-				href="https://www.maps.ie/draw-radius-circle-map/"></a></div>
 	</div>
- -->
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+</section>
+
+
+<!-- ============================================================
+     ARTICLES SECTION — Blog-style card layout
+     ============================================================ -->
+<section id="articles" class="section section--alt">
+	<div class="container">
+		<div class="section-heading" data-reveal>
+			<span class="section-label" data-en="Insights &amp; Tutorials" data-fr="Articles &amp; Tutoriels">Insights &amp; Tutorials</span>
+			<h2 class="section-title" data-en="Articles" data-fr="Articles">Articles</h2>
+			<p class="section-desc" data-en="Thoughts on development, DevOps, and technology." data-fr="Réflexions sur le développement, le DevOps et la technologie.">Thoughts on development, DevOps, and technology.</p>
+		</div>
+
+		<!-- Articles are fetched dynamically from Medium RSS feed -->
+		<div class="articles-grid" id="articles-grid" data-reveal>
+			<!-- Loading skeleton -->
+			<div class="article-skeleton" aria-hidden="true">
+				<div class="skeleton-img"></div>
+				<div class="skeleton-line skeleton-line--title"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line skeleton-line--short"></div>
+			</div>
+			<div class="article-skeleton" aria-hidden="true">
+				<div class="skeleton-img"></div>
+				<div class="skeleton-line skeleton-line--title"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line skeleton-line--short"></div>
+			</div>
+			<div class="article-skeleton" aria-hidden="true">
+				<div class="skeleton-img"></div>
+				<div class="skeleton-line skeleton-line--title"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line skeleton-line--short"></div>
+			</div>
+		</div>
 	</div>
+</section>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map -->
-	<script src="js/main.js"></script>
 
-	<script>
+<!-- ============================================================
+     SKILLS SECTION — Tag-cloud style grouped by category
+     ============================================================ -->
+<section id="skills" class="section">
+	<div class="container">
+		<div class="section-heading" data-reveal>
+			<span class="section-label" data-en="What I work with" data-fr="Technologies utilisées">What I work with</span>
+			<h2 class="section-title" data-en="Skills &amp; Tools" data-fr="Compétences &amp; Outils">Skills &amp; Tools</h2>
+		</div>
 
-		$(function () {
-			$('form').submit(function () {
-				var formData = new FormData($(this)[0]);
-				var request = $.ajax({
-					type: 'POST',
-					url: 'https://script.google.com/macros/s/AKfycbyYYoHgiSNjG9tZxe8pPfbg0CHptKS33mXcq2oOIv04BIU3Fy9mReaNGxVHnnYbhx_fZQ/exec',
-					data: formData,
-					processData: false,
-					contentType: false,
-				});
-				request.done(function (response, textStatus, jqXHR) {
-					alert('Email sent!!!!')
-				});
+		<div class="skills-grid" data-reveal>
+			<!-- Development -->
+			<div class="skills-group">
+				<h3><i class="fas fa-code"></i> <span data-en="Development" data-fr="Développement">Development</span></h3>
+				<div class="skills-tags">
+					<span class="skill-tag">Python</span>
+					<span class="skill-tag">Django</span>
+					<span class="skill-tag">Flask</span>
+					<span class="skill-tag">JavaScript</span>
+					<span class="skill-tag">TypeScript</span>
+					<span class="skill-tag">Node.js</span>
+					<span class="skill-tag">Angular</span>
+					<span class="skill-tag">React</span>
+					<span class="skill-tag">HTML / CSS</span>
+					<span class="skill-tag">Bootstrap</span>
+					<span class="skill-tag">C</span>
+					<span class="skill-tag">Java</span>
+				</div>
+			</div>
 
-				// Callback handler that will be called on failure
-				request.fail(function (jqXHR, textStatus, errorThrown) {
-					alert('Error try later.')
-				});
-				return false;
-			});
-		})
-	</script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-N8DL9H5"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+			<!-- DevOps & Cloud -->
+			<div class="skills-group">
+				<h3><i class="fas fa-cloud"></i> <span data-en="DevOps &amp; Cloud" data-fr="DevOps &amp; Cloud">DevOps &amp; Cloud</span></h3>
+				<div class="skills-tags">
+					<span class="skill-tag">Docker</span>
+					<span class="skill-tag">GitHub Actions</span>
+					<span class="skill-tag">AWS (EC2, S3, Lambda)</span>
+					<span class="skill-tag">Linux</span>
+					<span class="skill-tag">Nginx</span>
+					<span class="skill-tag">CI / CD</span>
+					<span class="skill-tag">Grafana</span>
+					<span class="skill-tag">Loki</span>
+				</div>
+			</div>
 
-		gtag('config', 'GTM-N8DL9H5');
-	</script>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8DL9H5" height="0" width="0"
-			style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
+			<!-- Data & Security -->
+			<div class="skills-group">
+				<h3><i class="fas fa-shield-alt"></i> <span data-en="Data &amp; Security" data-fr="Données &amp; Sécurité">Data &amp; Security</span></h3>
+				<div class="skills-tags">
+					<span class="skill-tag">PostgreSQL</span>
+					<span class="skill-tag">MySQL</span>
+					<span class="skill-tag">MongoDB</span>
+					<span class="skill-tag">Redis</span>
+					<span class="skill-tag">Cryptography</span>
+					<span class="skill-tag">OWASP</span>
+					<span class="skill-tag">SSL / TLS</span>
+				</div>
+			</div>
+
+			<!-- Tools & Workflow -->
+			<div class="skills-group">
+				<h3><i class="fas fa-tools"></i> <span data-en="Tools &amp; Workflow" data-fr="Outils &amp; Workflow">Tools &amp; Workflow</span></h3>
+				<div class="skills-tags">
+					<span class="skill-tag">Git</span>
+					<span class="skill-tag">VS Code</span>
+					<span class="skill-tag">Jira</span>
+					<span class="skill-tag">Postman</span>
+					<span class="skill-tag">Swagger</span>
+					<span class="skill-tag">Agile / Scrum</span>
+					<span class="skill-tag">REST APIs</span>
+					<span class="skill-tag">WebSockets</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Certificates sub-section -->
+		<div class="certificates-section" data-reveal>
+			<h3 class="sub-heading" data-en="Certifications" data-fr="Certifications">Certifications</h3>
+			<div class="certificates-grid">
+				<div class="cert-card" data-src="images/AWS Certified Cloud Practitioner certificate_page-0001.jpg">
+					<img src="images/AWS Certified Cloud Practitioner certificate_page-0001.jpg" alt="AWS Cloud Practitioner" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+				<div class="cert-card" data-src="images/Optimisez-votre-déploiement-en-créant-des-conteneurs-avec-Docker.png">
+					<img src="images/Optimisez-votre-déploiement-en-créant-des-conteneurs-avec-Docker.png" alt="Docker Certificate" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+				<div class="cert-card" data-src="images/Apprenez-à-programmer-en-Python.png">
+					<img src="images/Apprenez-à-programmer-en-Python.png" alt="Python Certificate" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+				<div class="cert-card" data-src="images/Apprenez-à-coder-avec-JavaScript.png">
+					<img src="images/Apprenez-à-coder-avec-JavaScript.png" alt="JavaScript Certificate" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+				<div class="cert-card" data-src="images/2067997710.png">
+					<img src="images/2067997710.png" alt="Certificate" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+				<div class="cert-card" data-src="images/attestation_fun_mooc_python_page-0001.jpg">
+					<img src="images/attestation_fun_mooc_python_page-0001.jpg" alt="Python MOOC Certificate" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+				<div class="cert-card" data-src="images/Écrivez-du-JavaScript-pour-le-web.png">
+					<img src="images/Écrivez-du-JavaScript-pour-le-web.png" alt="JavaScript Web Certificate" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+				<div class="cert-card" data-src="images/Introduction-à-jQuery.png">
+					<img src="images/Introduction-à-jQuery.png" alt="jQuery Certificate" loading="lazy" width="300" height="210">
+					<div class="cert-overlay"><i class="fas fa-expand"></i></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ============================================================
+     CONTACT SECTION — Dark section with form
+     ============================================================ -->
+<section id="contact" class="section section--dark">
+	<div class="container">
+		<div class="section-heading" data-reveal>
+			<span class="section-label" data-en="Let's Talk" data-fr="Discutons">Let's Talk</span>
+			<h2 class="section-title" data-en="Get in Touch" data-fr="Contactez-moi">Get in Touch</h2>
+			<p class="section-desc" data-en="Have a project in mind? Let's work together!" data-fr="Vous avez un projet en tête ? Travaillons ensemble !">Have a project in mind? Let's work together!</p>
+		</div>
+
+		<div class="contact-grid" data-reveal>
+			<!-- Contact info cards -->
+			<div class="contact-info">
+				<div class="contact-card">
+					<i class="fas fa-envelope"></i>
+					<h4>Email</h4>
+					<a href="mailto:diagnekhadimx@gmail.com">diagnekhadimx@gmail.com</a>
+				</div>
+				<div class="contact-card">
+					<i class="fas fa-map-marker-alt"></i>
+					<h4 data-en="Location" data-fr="Localisation">Location</h4>
+					<p>Dakar, Senegal</p>
+				</div>
+			</div>
+
+			<!-- Contact form -->
+			<form id="contact-form" class="contact-form" novalidate>
+				<div class="form-field">
+					<input type="text" id="name" name="name" required placeholder=" ">
+					<label for="name" data-en="Your Name" data-fr="Votre nom">Your Name</label>
+				</div>
+				<div class="form-field">
+					<input type="email" id="email" name="email" required placeholder=" ">
+					<label for="email" data-en="Your Email" data-fr="Votre email">Your Email</label>
+				</div>
+				<div class="form-field">
+					<textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+					<label for="message" data-en="Your Message" data-fr="Votre message">Your Message</label>
+				</div>
+				<button type="submit" class="btn btn--primary btn--full">
+					<i class="fas fa-paper-plane"></i> <span data-en="Send Message" data-fr="Envoyer le message">Send Message</span>
+				</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+
+<!-- ============================================================
+     FOOTER — Compact footer with social links
+     ============================================================ -->
+<footer class="footer" role="contentinfo">
+	<div class="container footer-container">
+		<a href="#home" class="footer-logo">AB<span>D</span></a>
+		<p>&copy; 2026 Ahmadou Bamba Diagne. <span data-en="All rights reserved." data-fr="Tous droits réservés.">All rights reserved.</span></p>
+		<div class="footer-socials">
+			<a href="https://github.com/bambadiagne" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/ahmadou-bamba-diagne/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+			<a href="https://twitter.com/Elkha_D" target="_blank" aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+		</div>
+	</div>
+</footer>
+
+
+<!-- Back to top button -->
+<button id="back-to-top" class="back-to-top" aria-label="Back to top">
+	<i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- Lightbox overlay for certificates -->
+<div id="lightbox" class="lightbox" role="dialog" aria-hidden="true">
+	<button class="lightbox-close" aria-label="Close"><i class="fas fa-times"></i></button>
+	<button class="lightbox-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+	<button class="lightbox-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+	<img class="lightbox-img" src="" alt="Certificate">
+</div>
+
+
+<!-- ============================================================
+     SCRIPTS — Main JS (no jQuery dependency)
+     ============================================================ -->
+<script src="js/main.js"></script>
+
+<!-- Contact form submission (uses fetch, no jQuery needed) -->
+<script>
+(function() {
+	var form = document.getElementById('contact-form');
+	if (!form) return;
+	form.addEventListener('submit', function(e) {
+		e.preventDefault();
+		var data = new FormData(form);
+		var btn = form.querySelector('button[type="submit"]');
+		btn.disabled = true;
+		btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+		fetch('https://script.google.com/macros/s/AKfycbyYYoHgiSNjG9tZxe8pPfbg0CHptKS33mXcq2oOIv04BIU3Fy9mReaNGxVHnnYbhx_fZQ/exec', {
+			method: 'POST',
+			mode: 'no-cors',
+			body: data
+		}).then(function() {
+			alert('Message sent successfully!');
+			form.reset();
+		}).catch(function() {
+			alert('Error sending message. Please try again later.');
+		}).finally(function() {
+			btn.disabled = false;
+			btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+		});
+	});
+})();
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8DL9H5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 </body>
-
-
 </html>
