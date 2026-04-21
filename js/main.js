@@ -434,7 +434,37 @@
 
 
   /* =====================================================
-     8. INITIALISATION
+     8. TYPEWRITER (hero role — terminal effect)
+     ===================================================== */
+  var Typewriter = {
+    el:    null,
+    speed: 42,   /* ms per character */
+
+    init: function () {
+      var el = document.querySelector('.hero-role');
+      if (!el) return;
+      this.el = el;
+
+      /* Capture original text before clearing */
+      var text = el.textContent.trim();
+      el.textContent = '';
+
+      /* Brief delay so the terminal window fade-in finishes first */
+      var self = this;
+      setTimeout(function () { self.type(text, 0); }, 700);
+    },
+
+    type: function (text, index) {
+      if (index >= text.length) return;
+      var self = this;
+      this.el.textContent = text.substring(0, index + 1);
+      setTimeout(function () { self.type(text, index + 1); }, self.speed);
+    }
+  };
+
+
+  /* =====================================================
+     9. INITIALISATION
      ===================================================== */
   function boot() {
     Lang.init();
@@ -444,6 +474,7 @@
     BackToTop.init();
     MediumArticles.init();
     Lightbox.init();
+    Typewriter.init();
   }
 
   // Run when DOM is ready
